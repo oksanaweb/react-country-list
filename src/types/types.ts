@@ -1,5 +1,5 @@
 export interface CountryApi {
-  flags: Flag;
+  flags: CountryFlag;
   name: CountryName;
   capital: string[];
   region: string;
@@ -7,7 +7,7 @@ export interface CountryApi {
   population: number;
 }
 
-export interface Flag {
+export interface CountryFlag {
   png: string;
   svg: string;
 }
